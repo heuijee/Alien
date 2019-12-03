@@ -41,13 +41,15 @@ PShape는 프로세싱에서 제공되는 함수를 이용해 벡터방정식의
 	 
 외계인을 그리고 싶다면 먼저 Ailen이라는 class를 생성한뒤 외계인의 구성요소들을 파라미터로 만들어줍니다.
 
- ``` float sizeScale;
+ ``` 
+ float sizeScale;
   
   float xCenter, yCenter;
   
   PShape alien, body, head, lefteye, righteye, leftleg, rightleg;
   
-  color leftColor, rightColor;```
+  color leftColor, rightColor;
+  ```
   
 PShape을 사용해 외계인의 몸, 팔, 다리등의 함수를 만들어 줍니다.
 
