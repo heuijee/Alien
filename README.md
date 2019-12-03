@@ -20,18 +20,27 @@ PShape는 프로세싱에서 제공되는 함수를 이용해 벡터방정식의
 
 	triangle(x1,x2,y1,y2,z1,z2): 삼각형 그리기
  
- arc(x1,x2,y1,y2,z1,z2,f1,f2): 원호 그리기
-  quad(x1,x2,y1,y2,z1,z2,f1,f2): 사변형 그리기
-  strokeWeight(10): 선의 두께 조절
-  noStroke(): 선 그리지 않기
+ 	arc(x1,x2,y1,y2,z1,z2,f1,f2): 원호 그리기
+
+	quad(x1,x2,y1,y2,z1,z2,f1,f2): 사변형 그리기
+  	
+	strokeWeight(10): 선의 두께 조절
+ 	
+	noStroke(): 선 그리지 않기
   
 2. 동적모드
-  ellipse(mouseX, mouseY,50,50): 가로 세로 50인 원 그리기-> mouseX:마우스 x좌표, mouseY:마우스 y좌표
+ 
+	 ellipse(mouseX, mouseY,50,50): 가로 세로 50인 원 그리기-> mouseX:마우스 x좌표, mouseY:마우스 y좌표
   -> 마우스가 움직이는 좌표에 따라 원이 새로 그려진다.
   
 3. 색 정하기
-  fill(0): 0~255사이의 값으로 명암을 조절할 수 있다. 도형에 명암을 넣을 수 있다.
-  background(0): 0~255사이의 값으로 배경의 명암을 조절할 수 있다.
+  	
+	fill(0): 0~255사이의 값으로 명암을 조절할 수 있다. 도형에 명암을 넣을 수 있다.
+	
+ 	 background(0): 0~255사이의 값으로 배경의 명암을 조절할 수 있다.
+	 
+	 
+	 
   
   
   
